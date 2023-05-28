@@ -1,0 +1,6 @@
+name: SpleefPlugin
+version: 1.0
+main: fr.niware.spleef.SpleefPlugin
+api-version: 1.17
+depend: [ GamesAPI, WRLDPaymentsAPI, PlayerNPC ]
+authors: [ Niware ]

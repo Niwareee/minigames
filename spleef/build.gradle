@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.niware'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+
+    maven { url 'https://maven.worldql.com/releases' }
+    maven { url 'https://nexus.scarsz.me/content/groups/public/' }
+}
+
+dependencies {
+    implementation files('C:\\Users\\Emeric\\Downloads\\PlayerNPC.jar')
+    compileOnly 'com.nftworlds:wrld-payments-api:0.3.3'
+    compileOnly 'io.papermc.paper:paper:1.17.1-R0.1-SNAPSHOT'
+    implementation 'fr.niware:gamesapi:1.0-SNAPSHOT'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+jar.destinationDirectory = 'C:\\Users\\Emeric\\Documents\\[DEV] Artifacts' as File
+
+compileJava.options.encoding = 'UTF-8'

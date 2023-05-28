@@ -1,0 +1,6 @@
+name: ZombieArena
+version: 1.0
+main: fr.niware.zombie.ZombiePlugin
+api-version: 1.17
+depend: [ GamesAPI, MythicMobs, ModelEngine, WRLDPaymentsAPI, PlayerNPC]
+authors: [ Niware ]

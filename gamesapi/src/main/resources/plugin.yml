@@ -1,0 +1,8 @@
+name: GamesAPI
+version: 1.0
+main: fr.niware.gamesapi.GamesAPI
+api-version: 1.17
+authors: [ Niware ]
+
+libraries:
+  - com.zaxxer:HikariCP:5.0.1

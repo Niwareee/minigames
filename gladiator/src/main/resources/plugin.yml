@@ -1,0 +1,6 @@
+name: GladiatorPlugin
+version: 1.0
+main: fr.niware.gladiator.GladiatorPlugin
+api-version: 1.17
+depend: [ GamesAPI, WRLDPaymentsAPI, PlayerNPC ]
+authors: [ Niware ]

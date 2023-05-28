@@ -1,0 +1,9 @@
+{
+  "needToStart": 2,
+  "wrldStartAward": 1000,
+  "host": "host",
+  "name": "name",
+  "username": "username",
+  "password": "password",
+  "port": 3306
+}
